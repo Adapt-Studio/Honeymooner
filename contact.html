@@ -38,48 +38,20 @@
 
     <link rel="stylesheet" href="adapt.css" />
 
-    <style>
-      html {
-        width: 100vw;
-        height: 100vh;
-        font-family: ;
-        font-size: 18px;
-        text-align: center;
-      }
-      body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-      }
-      header {
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 1rem;
-      }
-      .logo {
-        margin-left: 10px;
-      }
-      .menu-icon {
-        margin-right: 1.5rem;
-      }
-      .menu {
-        display: none;
-      }
-      .hero {
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-      }
-    </style>
   </head>
   <body>
       <header>
-          <img src="assets/icons/logo.svg" alt="honeymooner logo">
-          <button>menu</button>
+          <img src="assets/icons/logo.png" alt="honeymooner logo" class="logo">
+	  <div class="menu">
+          <button onclick="menu()" class="menu-btn">menu</button>
+	  <div class="dropdown">
+	  	<a href="index.html">Home</a>
+	  	<a href="about.html">About</a>
+	  	<a href="news.html">News</a>
+	  	<a href="tickets.html">Tickets</a>
+	  	<a href="contact.html">Contact</a>
+	  </div>
+	  </div>
       </header>
       
       <h2 class="page-title">contact</h2>
@@ -96,24 +68,25 @@
           <input type="submit" value="send">
       </form>
       
-      <footer>
-          <img src="assets/icons/logo-small.svg" alt="honeymooner logo">
+        <footer>
+            <img src="assets/icons/logosml.png" alt="honeymooner logo">
             
-          <div class="social">
-              <img src="assets/icons/facebook.svg" alt="facebook">
+            <div class="social">
+                <img src="assets/icons/face.svg" alt="facebook">
                     
-              <img src="assets/icons/facebook.svg" alt="facebook">
+                <img src="assets/icons/twit.svg" alt="facebook">
                         
-              <img src="assets/icons/facebook.svg" alt="facebook">
-          </div>
+                <img src="assets/icons/inst.svg" alt="facebook">
+            </div>
             
-          <div class="links">
-              <a href="privacy.html">Privacy Policy</a>
-              <a href="t&cs.html">T&Cs</a>
-              <a href="contact.html">Contact</a>
-          </div>
+            <div class="links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="t&cs.html">T&Cs</a>
+                <a href="contact.html">Contact</a>
+            </div>
             
-      </footer>
+        </footer>
   </body>
 </html>
+
 
