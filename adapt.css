@@ -277,7 +277,7 @@ footer {
   .news-bg {
     position: absolute;
     width: 100vw;
-    height: 150px;
+    height: 225px;
     background: none;
     z-index: -1;
   }
