@@ -70,7 +70,7 @@ nav {
 }
 .dropdown {
   position: absolute;
-  top: 105px;
+  top: 100px;
   width: 104px;
   height: 280px;
   display: none;
