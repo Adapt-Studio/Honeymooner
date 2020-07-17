@@ -32,6 +32,7 @@ button {
   border-radius: 9px;
   background: #f7faac;
   box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
 }
 .page-title {
   font-size: 25px;
@@ -397,4 +398,5 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background: rgba(252, 143, 143, 0.5);
+  cursor: pointer;
 }
