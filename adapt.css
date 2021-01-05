@@ -92,6 +92,16 @@ nav {
 .showBtn {
 	box-shadow: 3px 0px 0px #00000029;
 }
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .logo {
+	  width: 125px;
+  }
+  .menu-btn {
+	  width: 100px;
+	  height: 32px;
+	  font-size: 20px;
+  }
+}	  
 @media screen and (min-width: 1350px) {
   .logo {
 	  width: 208px;
