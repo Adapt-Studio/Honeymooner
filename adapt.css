@@ -106,8 +106,7 @@ nav {
     text-decoration: none;
     margin-right: 25px;
   }
-  .active,
-  nav a:hover {
+  .active {
     width: 110px;
     height: 48px;
     border-radius: 9px;
